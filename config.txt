@@ -1,0 +1,27 @@
+{
+# 公众号配置
+# 公众号appId
+"app_id": "wx9d0b6430f23c1914",
+# 公众号appSecret
+"app_secret": "484338bf405ac3f407c9d37015c91f00",
+# 模板消息id
+"template_id": "9C9T8OVxDquMuWJzLzhj7kESymjL_D346QXdlJCT7Po",
+# 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
+"user": ["okIb15iUoN3TWVx-CvS-X9E6Unp4,okIb15sLu5T0l4Ya2zNCzPzDafXY"],
+ 
+# 信息配置
+# 和风天气apikey
+"weather_key": "b9f5f8f3fe4c48908182cbce49970a42",
+# 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
+"region": "东营市",
+# 生日1，修改名字为对应需要显示的名字，如果生日为农历，在最前面加上r即可
+"birthday1": {"name": "老爸", "birthday": "r1977-03.-29"},
+# 生日2
+"birthday2": {"name": "老妈", "birthday": "r1977-10-02"},
+# 是养俺滴，格式同上，暂不不支持农历
+"love_date": "2002-10-13",
+# 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
+"note_ch": "愿妈妈爸爸您身体健康，心情舒畅。",
+# 金句英文
+"note_en": "Wish Mom and Dad you good health and happy mood."
+}
